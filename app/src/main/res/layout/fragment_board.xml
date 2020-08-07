@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvWelcoming"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here to say welcome"/>
+    <TextView
+        android:id="@+id/tvBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Here to show at which question you'r from to total"/>
+
+</LinearLayout>

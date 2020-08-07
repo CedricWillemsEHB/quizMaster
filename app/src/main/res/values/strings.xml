@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">Quiz Master</string>
+    <string name="game_name">Quiz Master</string>
+    <string name="welcome">Welcome</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="trophy">Trophy</string>
+    <string name="quiz">Quiz</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="play">Play</string>
+    <string name="you_sure">Are you sure?</string>
+    <string name="try_again">Wanna try  again?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="congratulation">Congratulations on your victory!</string>
+    <string name="bravo">Bravo!</string>
+    <string name="you_won">You won this quiz!</string>
+    <string name="you_lost">You lost this quiz!</string>
+    <string name="new_quiz">New quiz! Try it!</string>
+    <string name="still_champ">Still a champ!</string>
+    <string name="new_quiz_title">New quiz!</string>
+    <string name="try_this">Wanna try!</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="quiz_not_find">Quiz was not found.</string>
+    <string name="question">Questions:</string>
+    <string name="hi_you_back">Hi you\'\'re back. Get it this time!</string>
+    <string name="welcome_good_luck">Welcome, good luck  with the quiz.</string>
+    <string name="please_write">Please write your answer.</string>
+    <string name="please_select">Please select an answer.</string>
+    <string name="go_back">Go back</string>
+    <string name="sorry_you_lost">Sorry you lost.</string>
+    <string name="congrat_you_won">Congratulation you won</string>
+    <string name="quiz_not_saved">The quiz was not saved!</string>
+    <string name="add_quiz">Add quiz</string>
+    <string-array name="drawer_array">
+        <item>Home</item>
+        <item>Quiz</item>
+        <item>Trophy</item>
+    </string-array>
+
+</resources>

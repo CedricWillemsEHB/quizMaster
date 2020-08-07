@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_name">Quiz Meester</string>
+    <string name="welcome">Welkom</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Dicht</string>
+    <string name="trophy">Trophy</string>
+    <string name="quiz">"Quiz "</string>
+    <string name="home">Home</string>
+    <string-array name="drawer_array">
+        <item>Home</item>
+        <item>Quiz</item>
+        <item>Trophy</item>
+    </string-array>
+    <string name="settings">Instellingen</string>
+    <string name="share">Delen</string>
+    <string name="send">Verzenden</string>
+    <string name="you_sure">Weet je het zeker?</string>
+    <string name="play">Speel</string>
+    <string name="try_again">Wil je het opnieuw proberen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="congratulation">Gefeliciteerd met je overwinning!</string>
+    <string name="bravo">Bravo!</string>
+    <string name="you_won">Je hebt deze quiz gewonnen!</string>
+    <string name="you_lost">Je bent deze quiz verloren!</string>
+    <string name="new_quiz">"Nieuwe quiz! Probeer het eens! "</string>
+    <string name="still_champ">Nog steeds een kampioen!</string>
+    <string name="new_quiz_title">Nieuwe quiz!</string>
+    <string name="try_this">Wil je proberen!</string>
+    <string name="previous">Vorige</string>
+    <string name="next">Volgende</string>
+    <string name="quiz_not_find">Quiz is niet gevonden.</string>
+    <string name="question">Vragen:</string>
+    <string name="welcome_good_luck">Welkom, veel succes met de quiz.</string>
+    <string name="hi_you_back">Hallo, je bent terug. Haal het deze keer!</string>
+    <string name="quiz_not_saved">De quiz is niet opgeslagen!</string>
+    <string name="congrat_you_won">Gefeliciteerd dat je gewonnen hebt</string>
+    <string name="sorry_you_lost">Sorry dat je verloren hebt.</string>
+    <string name="go_back">Terug</string>
+    <string name="please_select">Selecteer een antwoord.</string>
+    <string name="please_write">"Alsjeblieft schrijf je antwoord. "</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_name">Maitre Quiz</string>
+    <string name="welcome">Bienvenu</string>
+    <string name="drawer_open">Ouvert</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="trophy">Trophée</string>
+    <string name="quiz">Quiz</string>
+    <string name="home">Accueil</string>
+    <string-array name="drawer_array">
+        <item>Accueil</item>
+        <item>Quiz</item>
+        <item>Trophée</item>
+    </string-array>
+    <string name="settings">Paramètres</string>
+    <string name="share">Partager</string>
+    <string name="send">Envoyer</string>
+    <string name="bravo">Bravo!</string>
+    <string name="play">Jouer</string>
+    <string name="you_sure">Es-tu sûr?</string>
+    <string name="try_again">Vous voulez réessayer?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="congratulation">Félicitations pour votre victoire!</string>
+    <string name="you_won">Tu as gagné ce quiz!</string>
+    <string name="you_lost">"Tu as perdu ce quiz! "</string>
+    <string name="new_quiz">Nouveau quiz! Essaie!</string>
+    <string name="still_champ">Toujours un champion!</string>
+    <string name="new_quiz_title">"Nouveau quiz! "</string>
+    <string name="try_this">"Vous voulez essayer! "</string>
+    <string name="quiz_not_find">Quiz n’a pas été trouvé.</string>
+    <string name="next">Prochain</string>
+    <string name="previous">Précédente</string>
+    <string name="question">Questions:</string>
+    <string name="hi_you_back">Salut, tu es de retour. Gagne-le cette fois!</string>
+    <string name="welcome_good_luck">Bienvenue, bonne chance avec le quiz.</string>
+    <string name="please_write">Veuillez écrire votre réponse.</string>
+    <string name="please_select">Veuillez sélectionner une réponse.</string>
+    <string name="go_back">Retour</string>
+    <string name="sorry_you_lost">Désolé que tu ai es perdu.</string>
+    <string name="congrat_you_won">Félicitations pour votre victoire</string>
+    <string name="quiz_not_saved">Le quiz n’a pas été sauvegardé!</string>
+</resources>

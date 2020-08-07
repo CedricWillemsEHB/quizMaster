@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/card_first_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/img_row"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_margin="7dp"
+                android:contentDescription="Thumbnail"
+                android:src="@drawable/ic_lock"/>
+
+            <LinearLayout
+                android:id="@+id/card_haeder"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="7dp"
+                    android:text="Title"
+                    android:textColor="#616161"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/tvDescreption"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Description"
+                    android:textSize="15sp"
+                    android:textStyle="italic"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/img_row_prime"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="7dp"
+                android:contentDescription="primeImage"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/prime"
+                android:tint="#00C853"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvWin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Brazvo for your win"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn_play"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            android:visibility="gone"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
