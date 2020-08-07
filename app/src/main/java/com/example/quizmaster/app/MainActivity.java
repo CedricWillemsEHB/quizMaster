@@ -86,6 +86,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             manager.beginTransaction().replace(R.id.fragment_container,
                     currentFragment,Constants.KEY_CONTAINER_FRAG).commit();
             navigationView.setCheckedItem(R.id.nav_home);
+        } else{
+            currentFragment = manager.findFragmentById(R.id.fragment_container);
         }
     }
 
@@ -99,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public void resetRecycleView(List<Quiz> quizList) {
         this.quizList = quizList;
         dbHelper.updateDb(this.quizList);
-        currentFragment = new QuizListFragment(this.quizList);
+        currentFragment = new QuizListFragment();
         manager.beginTransaction().replace(R.id.fragment_container,
                 currentFragment).commit();
     }
@@ -212,7 +214,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         currentFragment, Constants.KEY_CONTAINER_FRAG).commit();
                 break;
             case R.id.nav_quiz:
-                currentFragment = new QuizListFragment(quizList);
+                currentFragment = new QuizListFragment();
                 manager.beginTransaction().replace(R.id.fragment_container,
                         currentFragment, Constants.KEY_CONTAINER_FRAG).commit();
                 break;

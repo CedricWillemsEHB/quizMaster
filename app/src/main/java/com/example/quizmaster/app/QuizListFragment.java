@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,9 +22,11 @@ import com.example.quizmaster.adapter.MultiRowAdapter;
 import com.example.quizmaster.model.Constants;
 import com.example.quizmaster.model.MainListener;
 import com.example.quizmaster.model.Quiz;
+import com.example.quizmaster.model.QuizDbHelper;
 import com.example.quizmaster.model.QuizStatus;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 public class QuizListFragment extends Fragment implements MultiRowAdapter.MultiRowListener {
@@ -35,16 +38,13 @@ public class QuizListFragment extends Fragment implements MultiRowAdapter.MultiR
     boolean isFinished = false;
     int positionQuiz;
 
-    public QuizListFragment(List<Quiz> quizList) {
-        this.quizList = quizList;
-    }
-
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_quiz_list, container, false);
-
+        QuizDbHelper dbHelper = new QuizDbHelper(getContext());
+        quizList = dbHelper.getAllQuiz();
         // Add the following lines to create RecyclerView
         setUpRecyclerView();
         return view;

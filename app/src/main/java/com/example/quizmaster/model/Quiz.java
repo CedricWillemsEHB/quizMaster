@@ -1,5 +1,8 @@
 package com.example.quizmaster.model;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
@@ -112,4 +115,6 @@ public class Quiz implements Serializable {
         String[] titles = {"Cat", "Dog", "Deer", "Parrot"};
         return titles;
     }
+
+
 }
